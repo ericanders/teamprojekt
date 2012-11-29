@@ -6,20 +6,56 @@
 \chapter{Zielbestimmung}
 
 %Hier Einleitungstext einfügen, dabei die Formatierungen selber erstellen
-Dieser Abschnitt hat die Aufgabe, als eine Art Einleitung zu dienen. Es soll
-ein kurzer Umriss über Ziel und Motivation des Gesamt- und ggf. der
-Teilprojekte dargestellt werden. Beschrieben wird die Hauptaufgabe des Systems.
-Wichtig ist, den Grund für die Systementwicklung (Probleme oder Geschäftsidee)
-und damit ihre Ziele herauszuarbeiten.
+\begin{itemize}
+\item  System für programm Components
+\item  Bereitstellung von CTL (Common Template Library)
+\item  Zugriff auf CTL
+\item  Für intra-universitären Austausch
+\end{itemize}
+
 \section{Musskriterien}
 
-Hier wird aufgeführt, welche Funktionalitäten/Leistungen das Softwareprodukt in
-jedem Fall erfüllen muss, damit es genutzt werden kann.
+\begin{itemize}
+\item  Es muss eine Webfrontend geben um die Compontents einzusehen
+\item  Webfrontend muss initialen Quellcode Snippets bereit stellen.
+\item  Stabilität des Systems
+\item  Push für Manifest ins Frontend
+\item  Pull von Cluster der Manifestdateien
+\item  Upload von Manifest ins Frontend
+\end{itemize}
+
+\paragraph{Benutzerdaten}
+
+\begin{description}
+	\item[Administrator] Alles
+	\item[User]
+		\begin{itemize}
+			\item Kann Componenten ausführen
+			\item Neue C hinzufügen
+			\item Auslesen von C
+			\item Login auf Webfrontend
+		\end{itemize}
+	\item[Gast] 
+		\begin{itemize}
+			\item Manifest lesen
+			\item Kein Snippet-Code lesen
+			\item Componten lesen
+		\end{itemize}
+\end{description}
+
 \section{Wunschkriterien}
-Dies sind Kriterien, die für die Lauffähigkeit des Produkts nicht zwingend
-erforderlich sind, für die Erreichung der Projektziele aber erfüllt werden
-sollten.
+
+\begin{itemize}
+\item  Absicherung des Zugriffes
+\item  Anbindung von diesen Systemen untereinander (Social Programming)
+\item  LDAP Anbindung
+\item  Multilinguale Unterstützung
+\end{itemize}
 
 \section{Abgrenzungskriterien}
-Hier ist zu verdeutlichen, welche Ziele mit dem Produkt bewusst nicht erreicht
-werden sollen oder werden können.
+
+\begin{itemize}
+\item  Social Programming wird nicht implemtiert, soll nur evtl. vorbereitet werden.
+\item  Das System ist nicht für sehr große
+\item  Es wird \emph{nur} English als Systemsprache zur Verfügung
+\end{itemize}
