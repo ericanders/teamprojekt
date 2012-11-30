@@ -3,8 +3,104 @@
 
 \chapter{Produktfunktionen}
 
+\section{Frontend Funktionen}
+\subsection{F100 (Anmeldung)}
+\label{F:Anmeldung}
+\begin{description}
+  \item[Ziel]Ein Benutzer meldet sich erfolgreich am System an.
+  \item[Vorbedingung]Der Benutzer ist bereits auf dem System registriert und besitzt ein Passwort.
+  \item[Akteure]Unangemeldeter Benutzer
+   \item[Beschreibung]\hfill
+    \begin{enumerate}
+      \item Der Benutzer wählt den Link \emph{Login} auf der Webseite aus.
+	  \item Der Benutzer kommt in ein Login-Fenster, in dem er Benutzer und
+		Passwort eingeben kann und bestätigt dies mit einem Button.
+	  \item Die Daten werden vom System überprüft und der Benutzer informiert
+		ob der Login erfolgreich war.
+	  \item Außerdem wird dem Benutzer irgendwo auf der Seite sein Login-Status
+		angezeigt.
+    \end{enumerate}
+\end{description}
+
+\subsection{F101 (Suche)}
+\label{F:Suche}
+\begin{description}
+  \item[Ziel]Eine bestimmte Komponente wird gefunden
+  \item[Vorbedingung]Der Benutzer ist angemeldet
+  \item[Akteure] Angemeldeter Benutzer
+   \item[Beschreibung]\hfill
+    \begin{enumerate}
+      \item Der Benutzer wählt den Link \emph{Suche} auf der Webseite aus.
+	  \item Der Benutzer hat die Wahl zwischen zwei Suchverfahren.
+	  \item Das Erste ist eine einzelne Eingabezeile in der mit logischen
+		Begriffen gesucht werde kann.
+	  \item Das Zweite besteht aus mehreren optionalen Suchfeldern, die
+		relevante Eigenschaften der Komponenten repräsentieren. Hier kann der
+		Benutzer gezielt nach Eigenschaften der Komponenten suchen.
+	  \item Die Ergebnisse werden in einer übersichtlichen Tabelle mit den
+		wichtigsten Eigenschaften angezeigt.
+    \end{enumerate}
+\end{description}
+
+\subsection{F102 (Detailinformation der Komponenten)}
+\label{F:Details}
+\begin{description}
+  \item[Ziel]Einem Benutzer werden Detailinformationen einer Komponente
+	angezeigt.
+  \item[Vorbedingung]Der angemeldete Benutzer besitzt z.B. durch Verwenden der Suche den
+	Link zur Detailseite der Komponente.
+  \item[Akteure]Angemeldeter Benutzer
+   \item[Beschreibung]\hfill
+    \begin{enumerate}
+      \item Der Benutzer öffnet den Link zur Detailseite einer Komponente.
+	  \item Dem Benutzer werden in tabellenartiger Form alle
+		Detailinformationen angezeigt.
+	  \item Der Benutzer erhält die Möglichkeit eine Verbindung zu der
+		Komponente aufzubauen.
+    \end{enumerate}
+\end{description}
+
+\subsection{F103 (Eintragung von Komponenten)}
+\label{F:Eintragen}
+\begin{description}
+  \item[Ziel]Eine neue verfügbare Komponente wird eingetragen.
+  \item[Vorbedingung]Der Benutzer ist als Admin angemeldet und hat alle
+	relevanten Daten einer neuen Komponente, die bereitgestellt werden soll.
+  \item[Akteure]Administrator
+   \item[Beschreibung]\hfill
+    \begin{enumerate}
+      \item Der Benutzer wählt den Link \emph{Komponentenadministration} auf der Webseite aus.
+	  \item Der Benutzer kommt in ein Fenster in dem er alle notwendigen und
+		gewünschte zusätzliche Informationen einträgt.
+	  \item Der Benutzer bestätigt die Informationen und das System trägt die
+		neue Komponente in seine Datenbank ein.
+	  \item Der Benutzer bekommt Informationen ob die Eintragung erfolgreich
+		verlaufen ist.
+    \end{enumerate}
+\end{description}
+
+
+\subsection{F104 (Bearbeiten von Komponenten)}
+\label{F:Bearbeiten}
+\begin{description}
+  \item[Ziel]Eine Komponente wird bearbeitet oder gelöscht.
+  \item[Vorbedingung]Der Benutzer ist als Administrator auf der Detailseite
+	einer Komponente
+  \item[Akteure]Administrator
+   \item[Beschreibung]\hfill
+    \begin{enumerate}
+      \item Der Benutzer hat einen zusätzlichen Button zur Bearbeitung auf der
+		Detailseite der Komponente.
+	  \item Mit dem Button kommt der Benutzer auf eine Seite, auf der er alle
+		relevanten Informationen ändern kann
+	  \item Auf der Seite befindet sich ein Button zum Löschen der Komponente.
+	  \item Der Benutzer bestätigt seine Änderungen mit einem bestimmten
+		Button.
+    \end{enumerate}
+\end{description}
+
 \begin{itemize}
-	\item Login/Logout
+	\item Login /Logout
 	\item Suche nach Componten von Benutzern
 	\item Manifest Push
 	\item Manifest pull
