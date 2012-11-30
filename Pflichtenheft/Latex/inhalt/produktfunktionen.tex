@@ -64,7 +64,7 @@
 \label{F:Eintragen}
 \begin{description}
   \item[Ziel]Eine neue verfügbare Komponente wird eingetragen.
-  \item[Vorbedingung]Der Benutzer ist als Admin angemeldet und hat alle
+  \item[Vorbedingung]Der Benutzer ist als User angemeldet und hat alle
 	relevanten Daten einer neuen Komponente, die bereitgestellt werden soll.
   \item[Akteure]Administrator
    \item[Beschreibung]\hfill
@@ -85,8 +85,9 @@
 \begin{description}
   \item[Ziel]Eine Komponente wird bearbeitet oder gelöscht.
   \item[Vorbedingung]Der Benutzer ist als Administrator auf der Detailseite
-	einer Komponente
-  \item[Akteure]Administrator
+	einer Komponente oder als User auf der Detailseite einer selbst eingetragenen
+	Komponente.
+  \item[Akteure]Administrator, User
    \item[Beschreibung]\hfill
     \begin{enumerate}
       \item Der Benutzer hat einen zusätzlichen Button zur Bearbeitung auf der
