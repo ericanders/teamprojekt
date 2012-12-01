@@ -1,0 +1,55 @@
+TODO
+====
+
+* CTL einarbeiten überblück verschaffen
+* Use Cases aufbauen
+* Pflichtenheft
+  * Use-Cases
+  * Wunsche/Abgrenzung/Muss Kriterien
+  * Funktionen allgemein
+  * Weboberfläche Prototyp
+	//* Socialnetwork-Komponente
+  * Benutzereinteilung
+	1. Administrator
+	2. User
+	3. Gast
+
+
+Die Module
+==========
+
+* Webinstanz
+* Extern
+	Muss auf dem Cluster eine Komponente starten
+	Muss sich sowohl auf Website und automatisch im Cluster sein.
+
+* Intern
+ Wie lade ich meine Webkomponente hoch.
+   --Repro-entwicklung/Manifest-verwaltung
+   wartung/aktualisierung des Repros/Componente
+   Komponenten müssen gebaut werden
+   Benutzerverwaltung die Nutzern auch den Zugriff auf den Cluster ermöglichen
+	  IDEE:  git-like auth. Über authorized_keys und binding auf bestimmte
+		     binarys
+	  IDEE2: Authentifizierungsanfragen über Domäne des Nutzers.
+			 Ähnlich wie eduroam könnte es funktionieren -- VORTEIL: Es würde
+			 eine Verbindung zwischen verschiedenen Instanzen des Projektes
+			 ermöglichen.
+			 Also man kann sich mit dem Benutzer einer anderen Instanz
+			 anmelden.
+
+
+---------------------------------------------------------
+
+* Funktionsübersicht
+* Pflichtenheft vollständig.
+    *  GUI vorbereiten
+    *  Sicherheit erstmal nicht essenziell
+    *  Stabilität sehr wichtig
+    *  Definition von einzelnen Konstanten (sollten möglichst _einmal_ definiert
+         sein)
+
+* Für die drei Module je ein Repro
+* CTL als extra als Organisation auf Github
+  * Gibt es für öffentliche Projekte Lizensvorgaben
+
