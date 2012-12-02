@@ -1,0 +1,45 @@
+Eine Person hat Interesse an dem System und möchte sich registrieren. Er
+besucht die Website und findet einen Link der ihn zu einem Anmeldeformular
+führt. Dort gibt er seine Daten ein und schickt das Formular ab. Ein
+Adminstrator überprüft die Daten und schaltet den neuen Account dann
+gegebenenfalls frei. (Es sollte eine Kommunikation außerhalb des Systems
+stattfinden, sodass der Administrator Bescheid weiss, dass der Account
+freigeschaltet werden kann.)
+
+
+
+Ein User hat eine neue Komponente und ihre Daten und möchte diese in das System
+integrieren. Dazu loggt er sich mit seinem Account ein und geht über einen Link
+in ein Eingabeformular. Dort gibt er die Daten in das Formular ein und schickt
+sie ab. Er erhält eine Nachricht über den Erfolg bzw. eventuelle Fehler. (Ein
+Administrator kontrolliert die Daten und schaltet die Komponente dann frei)
+
+
+
+Ein User möchte eine Komponente zur Berechnung zur Multiplikation von
+rationalen Zahlen finden. Dazu gibt er zuerst den Begriff "Multiplikation" ein.
+Das Ergebnis der Suche wird im in einer tabellarischen Ansicht dargestellt, die
+Auskunft über die wichtigsten Daten der gefundenen Komponenten gibt.
+Er stellt allerdings fest, dass das Suchergebnis mit Komponenten zur 
+Multiplikationen von irrationalen überfüllt ist. Deswegen gibt er nun einen
+logschen Begriff ein, der "irrational" ausschließt und sucht erneut. In diesem
+Suchergebnis findet er eine Komponente die seinen Bedürfnissen zu entsprechen
+scheint. Er klickt auf den Eintrag der Komponente und erreicht die Detailseite
+der Komponente. Dort findet er weitere Informationen zu der Komponente und eine
+Möglichkeit sie in sein eigenes Projekt einzubinden. Er kopiert den Link zu der
+Detailseite und schickt sie an weitere Teammitglieder seines Projektes. Wenn
+diese auf den Link klicken können sie sich einige Details zu der Seite
+anschauen, finden aber keinerlei Informationen wie die Komponente zu benutzen
+ist. Diese können sie erst sehen, wenn sie sich ebenfalls einloggen.
+
+
+
+Ein User, der eine seiner Komponenten geändert hat möchte diese Änderungen nun
+in das System einpflegen. Dazu geht er auf seine Profilseite in der alle seine
+eigenen Komponenten tabellarisches wie in einem Suchergebnis aufgelistet sind.
+Indem er auf die geänderte Komponente klickt erreicht er die Detailseite. Da er
+der Ersteller dieser Komponente ist hat er zusätzlich zu dem was andere User
+sehen noch einen Editierbutton. Wenn er diesen klickt wird ein Eingabeformular
+geöffnet, dass dem zur ersten Eingabe gleicht, nur das jetzt bereits alle
+getroffenen Voreinstellungen eingetragen sind. Hier kann der User die
+gewünschten Änderungen vornehmen und bestätigen.
