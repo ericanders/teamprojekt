@@ -58,7 +58,10 @@ Seite mit sämtlichen Usern und sperrt dann den Gewünschten.
 
 6. Der Admin kontrolliert den Bestand an Komponenten und bemerkt eine Veraltete, 
 von der inzwischen geschätzte 20 verbesserte Versionen existieren. Diese möchte 
-er nun evtl. aus dem System entfernen. Gleichzeitig zum Entfernen müsste aber ein
+er nun evtl. aus dem System entfernen. Dann hinterlässt er eine Mitteilung auf
+der Homepage, die besagt dass die veraltete Komponente in 7 Tagen entfernt wird.
+Der Admin hinterlässt außerdem einen Link zu einer seiner Meinung nach guten
+Nachfolgerkomponente. Gleichzeitig zum Entfernen müsste aber ein
 Programm eingefügt werden (oder auf dieses verlinkt werden), welche eine 
 Fehlermeldung zurückgibt, dass das gewünschte Programm nicht (mehr) vorhanden ist - 
 nur für den Fall, dass noch Komponenten existieren, die diese veraltete Version 
