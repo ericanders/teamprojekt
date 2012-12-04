@@ -51,7 +51,8 @@ gewünschten Änderungen vornehmen und bestätigen.
 
 
 
-5. Ein User macht sich auf irgendeine Weise mehrfach negativ bemerkbar, sodass sich
+5. Ein User macht sich auf irgendeine Weise mehrfach negativ bemerkbar, sodass
+sich
 der Admin gezwungen sieht, dieses User zu sperren. Dafür betritt der Admin eine
 Seite mit sämtlichen Usern und sperrt dann den Gewünschten.
 
