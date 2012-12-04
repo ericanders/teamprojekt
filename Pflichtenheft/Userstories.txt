@@ -1,4 +1,4 @@
-Eine Person hat Interesse an dem System und möchte sich registrieren. Er
+﻿1. Eine Person hat Interesse an dem System und möchte sich registrieren. Er
 besucht die Website und findet einen Link der ihn zu einem Anmeldeformular
 führt. Dort gibt er seine Daten ein und schickt das Formular ab. Ein
 Adminstrator überprüft die Daten und schaltet den neuen Account dann
@@ -8,15 +8,18 @@ freigeschaltet werden kann.)
 
 
 
-Ein User hat eine neue Komponente und ihre Daten und möchte diese in das System
+2. Ein User hat eine neue Komponente und ihre Daten und möchte diese in das System
 integrieren. Dazu loggt er sich mit seinem Account ein und geht über einen Link
 in ein Eingabeformular. Dort gibt er die Daten in das Formular ein und schickt
 sie ab. Er erhält eine Nachricht über den Erfolg bzw. eventuelle Fehler. (Ein
 Administrator kontrolliert die Daten und schaltet die Komponente dann frei)
+Erweiterung: Nach dem Einschicken bemerkt dieser, dass er eine falsche Datei 
+geschickt hat und möchte diese sofort wieder löschen und diese danach durch
+die richtige Komponente ersetzen.
 
 
 
-Ein User möchte eine Komponente zur Berechnung zur Multiplikation von
+3. Ein User möchte eine Komponente zur Berechnung zur Multiplikation von
 rationalen Zahlen finden. Dazu gibt er zuerst den Begriff "Multiplikation" ein.
 Das Ergebnis der Suche wird im in einer tabellarischen Ansicht dargestellt, die
 Auskunft über die wichtigsten Daten der gefundenen Komponenten gibt.
@@ -31,10 +34,11 @@ Detailseite und schickt sie an weitere Teammitglieder seines Projektes. Wenn
 diese auf den Link klicken können sie sich einige Details zu der Seite
 anschauen, finden aber keinerlei Informationen wie die Komponente zu benutzen
 ist. Diese können sie erst sehen, wenn sie sich ebenfalls einloggen.
+###TODO: Wie sieht das mit dem Ausführen dann aus?
 
 
 
-Ein User, der eine seiner Komponenten geändert hat möchte diese Änderungen nun
+4. Ein User, der eine seiner Komponenten geändert hat möchte diese Änderungen nun
 in das System einpflegen. Dazu geht er auf seine Profilseite in der alle seine
 eigenen Komponenten tabellarisches wie in einem Suchergebnis aufgelistet sind.
 Indem er auf die geänderte Komponente klickt erreicht er die Detailseite. Da er
@@ -43,3 +47,19 @@ sehen noch einen Editierbutton. Wenn er diesen klickt wird ein Eingabeformular
 geöffnet, dass dem zur ersten Eingabe gleicht, nur das jetzt bereits alle
 getroffenen Voreinstellungen eingetragen sind. Hier kann der User die
 gewünschten Änderungen vornehmen und bestätigen.
+### Beim Ändern von der Komponente siehe Geschichte 2 
+
+
+
+5. Ein User macht sich auf irgendeine Weise mehrfach negativ bemerkbar, sodass sich
+der Admin gezwungen sieht, dieses User zu sperren. Dafür betritt der Admin eine
+Seite mit sämtlichen Usern und sperrt dann den Gewünschten.
+
+
+6. Der Admin kontrolliert den Bestand an Komponenten und bemerkt eine Veraltete, 
+von der inzwischen geschätzte 20 verbesserte Versionen existieren. Diese möchte 
+er nun evtl. aus dem System entfernen. Gleichzeitig zum Entfernen müsste aber ein
+Programm eingefügt werden (oder auf dieses verlinkt werden), welche eine 
+Fehlermeldung zurückgibt, dass das gewünschte Programm nicht (mehr) vorhanden ist - 
+nur für den Fall, dass noch Komponenten existieren, die diese veraltete Version 
+benutzen.
